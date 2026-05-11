@@ -248,6 +248,12 @@ button:hover {
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  #headerText {
+      margin-top: 10vh;
+  }
+}
+
 #spinBtn {
   background: none;
   border: none;
@@ -278,10 +284,21 @@ button:hover {
 }
 
 #deetsBtn img {
+  margin-top: 350px;
   width: 220px;
   height: auto;
 
   transition: transform 0.2s;
+}
+
+@media (max-width: 768px) {
+  #deetsBtn img {
+  margin-top: 0; 
+  width: 220px;
+  height: auto;
+
+  transition: transform 0.2s;
+  }
 }
 
 
@@ -593,13 +610,13 @@ button:hover {
   }
 
   .deco20 {
-    top: 25vh;
+    top: 33vh;
     left: 15%;
   }
 
   .deco21 {
-    top: 23vh;
-    right: 13%;
+    top: 33vh;
+    right: 15%;
   }
 }
 
@@ -612,7 +629,7 @@ button:hover {
 }
 
 .btn img {
-  width: 220px;
+  width: 300px;
   height: auto;
 
   transition: transform 0.2s;

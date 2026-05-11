@@ -63,6 +63,10 @@ function spawnBarSpam() {
   cardGameIntro.style.opacity = "0";
   cardGameIntro.style.pointerEvents = "none";
 
+  setTimeout(() => {
+    cardGameIntro.style.display = "none";
+  }, 2000);
+
   document.querySelectorAll(".barTitle")
   .forEach(title => {
 
