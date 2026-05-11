@@ -273,6 +273,10 @@ button:hover {
 }
 
 #deetsBtn {
+  position: relative;
+  top: 15vh;
+
+
   background: none;
   border: none;
   cursor: pointer;
@@ -284,7 +288,6 @@ button:hover {
 }
 
 #deetsBtn img {
-  margin-top: 350px;
   width: 220px;
   height: auto;
 
@@ -292,12 +295,8 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-  #deetsBtn img {
-  margin-top: 0; 
-  width: 220px;
-  height: auto;
-
-  transition: transform 0.2s;
+  #deetsBtn {
+  top: 5%;
   }
 }
 
